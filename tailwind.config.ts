@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        brandYellow: "#feb207",
+        brandOrange: "#c00ea0",
+        brandGreen: "#34a526",
+        brandLightGreen: "#84c42f",
+        brandPink: "#c00ea0",
+        brandGray: "#939498",
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
